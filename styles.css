@@ -1,0 +1,44 @@
+body{
+    background: #C4C4C4;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+input{
+    width: 498px;
+    height: 61px;
+    font-size: 56px;
+}
+.paragraf {
+    width: 500px;
+    height: 44px;
+    border: solid #000;
+    border-width: 2px;
+    font-size: 44px;
+    background: #E3E3E3;
+}
+.paragraf:hover{
+    background: #65CDF9;
+}
+.result{
+    width: 500px;
+    height: 101px;
+    font-size: 24px;
+    background-color: #E27BEB;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    position: relative;
+}
+.close{
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    right: 10px;
+}
